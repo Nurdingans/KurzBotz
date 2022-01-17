@@ -1,4 +1,4 @@
-﻿///----------( Created By KurrXd )----------\\\
+﻿///----------( Created By TzyDin )----------\\\
 
 /**
 BASE:DENIS
@@ -7,7 +7,7 @@ TQ TO:
 @DcodeDenpa
 @Aldy Fauzy
 @PAJAR
-@KEMOL
+@TZYDIN
 @ADI
 @KurrXd
 @Finx
@@ -437,7 +437,8 @@ key: {
 				"product": {
 					"productImage":{
 						"mimetype": "image/jpeg",
-						"jpegThumbnail": imageTime //Gambarnye
+						"jpegThumbnail": imageTime //Tak berjudul1_20220116055250.png",
+
 					},
 					"title": `${tampilUcapan} ${pushname}`, //Kasih namalu 
 					"description": `${tampilUcapan} ${pushname}`, 
@@ -1106,7 +1107,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Kurz Bot Assistan🏴‍☠️`
+menu =` Kurd Bot Assistan🏴‍☠️`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'🏴‍☠️SHOW MENU🏴‍☠️'},type:1},
 {buttonId:`store`,buttonText:{displayText:'🔰STORE MENU🔰'},type:1},
@@ -1135,9 +1136,9 @@ else if(menusimpel = true){
         stod = `${sender}`
        stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
-       menu = `┌───「 \`\`\`Kurz Bot Assistan\`\`\` 」
+       menu = `┌───「 \`\`\TzyDin Bot Assistan\`\`\` 」
 │
-🏴‍☠️ _Creator : *KurrXd* 
+🏴‍☠️ _Creator : *TzyDin* 
 🏴‍☠️ _Battery : ${baterai.battery}_
 🏴‍☠️ _Mode : ${publik ? 'Public' : 'Self'}_
 🏴‍☠️ _Total Hit : ${cmhit.length}_
@@ -1145,7 +1146,7 @@ else if(menusimpel = true){
 │
 🏴‍☠️───「 \`\`\`INFO BOT\`\`\` 」
 │
-🏴‍☠️ _Nama Bot : Kurz Bot Assistan_
+🏴‍☠️ _Nama Bot : TZYDIN Bot Assistan_
 🏴‍☠️ _Nama Owner : ${NamaOwner}_
 🏴‍☠️ _Nomor Owner : @${otod.split('@')[0]}_
 🏴‍☠️ _Auto Composing : ${settings.autocomposing}_
@@ -1160,7 +1161,7 @@ else if(menusimpel = true){
 🏴‍☠️ _Info Nomor : ${num.data.country_code} - ${num.data.carrier.type} - ${num.data.carrier.name}_
 │
 └───「 \`\`\`Kurz Bot Assistan\`\`\` 」`
-sendButLocation(from, `${menu}`, "*_© Kurz Bot Assistan_*", {jpegThumbnail:ofrply,name:""}, [{buttonId:`command`,buttonText:{displayText:'BUTTON MENU'},type:1},{buttonId:`owner`,buttonText:{displayText:'DEVELOPER'},type:1},{buttonId:`script`,buttonText:{displayText:'SOURCE CODE'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© TzyDin Bot Assistan_*", {jpegThumbnail:ofrply,name:""}, [{buttonId:`command`,buttonText:{displayText:'BUTTON MENU'},type:1},{buttonId:`owner`,buttonText:{displayText:'DEVELOPER'},type:1},{buttonId:`script`,buttonText:{displayText:'SOURCE CODE'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 break
 case 'allmenu': 
@@ -1172,7 +1173,7 @@ stod = `${sender}`
 				stst = stst.status == 401 ? '' : stst.status
 			
 menunya = `╭─❒ 「 Bot Info 」 ❒
-🏴‍☠️ _Creator : *KurrXd*
+🏴‍☠️ _Creator : *Tzydin*
 🏴‍☠️ _Battery : ${baterai.battery}_
 🏴‍☠️ _Mode : ${publik ? 'Public' : 'Self'}_
 🏴‍☠️ _Total Hit : ${cmhit.length}_
@@ -1498,7 +1499,7 @@ case 'command':
  stod = `${sender}`
  listMsg = {
  buttonText: 'LIST MENU',
- footerText: '*_© Kurz Bot Assistan_*',
+ footerText: '*_© TzyDin Bot Assistan_*',
  description: `Hai kak @${stod.split('@')[0]}, Silahkan pilih menu disini`,
  sections: [
                      {
@@ -2693,12 +2694,13 @@ const btnskuy = {
 await kurr.sendMessage(from, btnskuy, MessageType.buttonsMessage, {quoted: ftrol})
 		break
 case 'donasi':
-dona = fs.readFileSync('./media/donasi.jpg')
+dona = fs.readFileSync('./media/Tak berjudul1_20220116055250.png
+')
 doni =`*╭─❒ 「 Donasi 」 ──────*
 *│*
 *│*⬡ *Mau donasi apa cuma liat doang?*
-*│*⬡ *PULSA     : ${pulsa}*
-*│*⬡ *DANA    : ${dana}*
+*│*⬡ *OVO     : ${085950471442}*
+*│*⬡ *DANA    : ${085798328466}*
 *│*⬡ *GOPAY    : SCAN DI ATAS AJA*
 *└───────────────────*
 Scan QR di atas bila belum premium`
